@@ -20,7 +20,9 @@
 ## Architecture Flowchart
 
 ```mermaid
+```mermaid
 flowchart LR
+    %% Devices
     subgraph JETSON ["Jetson Orin Nano Super"]
         direction TB
         LIDAR["Livox MID360 LiDAR + IMU"]
@@ -60,6 +62,7 @@ flowchart LR
         QCLIENT["Cliente Zenoh / Visor VR"]
     end
 
+    %% Network Connections
     BRIDGE <==>|Enlace por radio Jetson a Pi5<br/>Zenoh TCP-UDP| ZROUTER
     ZROUTER <==>|Enlace por USB-Tether Pi5 a Tablet<br/>Zenoh TCP-UDP | CLIENT
     ZROUTER <==>|Hotspot Wi-Fi de la Pi5<br/>Zenoh TCP-UDP| QCLIENT
