@@ -20,7 +20,6 @@
 ## Architecture Flowchart
 
 ```mermaid
-```mermaid
 flowchart LR
     %% Devices
     subgraph JETSON ["Jetson Orin Nano Super"]
