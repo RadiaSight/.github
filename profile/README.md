@@ -4,7 +4,6 @@
 
 [![Documentation](https://img.shields.io/badge/docs-rimaspec-007EC6?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://docs.rimaspec.upc.edu/books/radiasight)
 [![YouTube Playlist](https://img.shields.io/badge/youtube-playlist-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLLIsosutcpWc&si=-Xz_bwcLZ8HVY8PK)
-[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=for-the-badge)](LICENSE)
 
 [![C++ 20](https://img.shields.io/badge/C++-20-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://cppreference.com/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
