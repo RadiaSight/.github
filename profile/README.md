@@ -25,14 +25,22 @@ flowchart LR
     subgraph JETSON ["Jetson Orin Nano Super"]
         direction TB
         LIDAR["Livox MID360 LiDAR + IMU"]
+        CAMS["2x Camara 200° (RGB)"]
         RC_DEV["Radiacode 10x (USB)"]
 
+        DRIVER["livox_ros_driver2"]
+        COLORIZER["colorize_node (C++)<br/>colorea puntos RGB<br/>+ gimbal digital (horizonte via IMU)"]
         GLIM["GLIM SLAM Node"]
         RC_NODE["radiacode_node (Python)"]
         BRIDGE["zenoh_bridge_node (C++)"]
 
-        LIDAR -->|Datos crudos| GLIM
+        LIDAR -->|Datos crudos| DRIVER
+        DRIVER -->|/livox/lidar + /livox/imu| COLORIZER
+        CAMS -->|Imagenes RGB 200°| COLORIZER
         RC_DEV -->|Paquetes USB| RC_NODE
+
+        COLORIZER -->|/colorize/points_rgb<br/>nube XYZRGB| GLIM
+        COLORIZER -->|/fpv/stabilized<br/>FPV estabilizado H.265| BRIDGE
 
         GLIM -->|/glim_ros/pose_corrected<br/>/glim_ros/aligned_points_corrected| BRIDGE
         RC_NODE -->|/radiacode/spectrum<br/>/radiacode/dose_rate| BRIDGE
@@ -49,6 +57,7 @@ flowchart LR
     end
 
     subgraph TABLET ["Android Tablet"]
+        direction TB
         CLIENT["ZenohClient (Kotlin)"]
         RENDER["Vulkan Renderer"]
         PREFS["SharedPreferences<br/>solo config y preferencias"]
