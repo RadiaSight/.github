@@ -1,4 +1,4 @@
-# <img src="https://github.com/user-attachments/assets/cec4215f-1cdb-478f-8814-6add4b768666" width="100%" alt="RadiaSight Banner" />
+# <img src="https://github.com/user-attachments/assets/4a238520-d0a4-4009-9630-d0800522b54e" width="100%" alt="RadiaSight Banner" />
 
 <div align="center">
 
@@ -20,10 +20,3 @@
 ## Architecture Flowchart
 
 <img width="3129" height="4055" alt="arquitectura" src="https://github.com/user-attachments/assets/6b053b24-084e-4f32-952a-9040e8410f75" />
-
-
----
-
-## Hardware Flowchart
-
-<img width="3605" height="1197" alt="v3" src="https://github.com/user-attachments/assets/4a238520-d0a4-4009-9630-d0800522b54e" />
