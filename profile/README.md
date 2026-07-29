@@ -19,4 +19,5 @@
 
 ## Architecture Flowchart
 
-<img width="3129" height="4055" alt="arquitectura" src="https://github.com/user-attachments/assets/6b053b24-084e-4f32-952a-9040e8410f75" />
+<img width="3129" height="4055" alt="arquitectura" src="https://github.com/user-attachments/assets/1f035eb4-e76a-4b88-83dc-6d45f722727e" />
+
