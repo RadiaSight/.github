@@ -19,4 +19,4 @@
 
 ## Architecture Flowchart
 
-<img width="3129" height="4055" alt="image" src="https://github.com/user-attachments/assets/11ed2af4-608b-4fcf-926d-0a99f02545fd" />
+<img width="2383" height="3915" alt="arch" src="https://github.com/user-attachments/assets/007c464a-22a3-4b5f-bd55-dcca110f5eeb" />
