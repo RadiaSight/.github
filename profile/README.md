@@ -1,3 +1,7 @@
+<img width="2560" height="1546" alt="image" src="https://github.com/user-attachments/assets/a9cc5f51-0fba-4d79-ae52-62dc47b9495e" /> 
+
+---
+
 <div align="center">
 
 [![Documentation](https://img.shields.io/badge/docs-rimaspec-007EC6?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://docs.rimaspec.upc.edu/books/radiasight)
