@@ -1,4 +1,4 @@
-# <img src="https://github.com/user-attachments/assets/4a238520-d0a4-4009-9630-d0800522b54e" width="100%" alt="RadiaSight Banner" />
+<img width="2560" height="1546" alt="image" src="https://github.com/user-attachments/assets/a9cc5f51-0fba-4d79-ae52-62dc47b9495e" />
 
 <div align="center">
 
@@ -19,4 +19,4 @@
 
 ## Architecture Flowchart
 
-<img width="2720" height="3872" alt="radiasight_system_architecture" src="https://github.com/user-attachments/assets/587eef55-c178-46ab-955b-58c1973fbb27" />
+<img width="2156" height="3081" alt="radiasight_system_architecture" src="https://github.com/user-attachments/assets/70d7d23b-c130-47a5-988f-733ead749162" />
