@@ -19,4 +19,4 @@
 
 ## Architecture Flowchart
 
-<img width="2383" height="3915" alt="arch" src="https://github.com/user-attachments/assets/007c464a-22a3-4b5f-bd55-dcca110f5eeb" />
+<img width="2720" height="3872" alt="radiasight_system_architecture" src="https://github.com/user-attachments/assets/587eef55-c178-46ab-955b-58c1973fbb27" />
